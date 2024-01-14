@@ -1,6 +1,5 @@
 import styled from '@emotion/styled';
-import { theme } from 'constans/theme';
-
+// import { theme } from 'constants';
 
 export const StatisticsList = styled.ul`
     display: flex;
@@ -16,6 +15,6 @@ export const StatisticItem = styled.li`
 `;
 
 export const StatisticText = styled.span`
-    font-size: ${theme.font.blue};
+    font-size: #DCDCDC;
     margin-right: 5px;
 `;

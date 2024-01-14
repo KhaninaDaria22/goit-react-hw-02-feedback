@@ -4,7 +4,7 @@ import { FeedbackList, Button } from './Feedback.styled';
 
 class Feedback extends Component {
     render() {
-        const { options, onFeedback} = this.props;
+        const { options, onLeaveFeedback } = this.props;
         return (
             <FeedbackList> 
                 {options.map((option, index) => {
@@ -13,7 +13,7 @@ class Feedback extends Component {
                           <Button
                             type="button"
                             onClick={() => {
-                                onFeedback(option);
+                              onLeaveFeedback(option);
                             }}
                           >
                             {option.charAt(0).toUpperCase() + option.slice(1)}

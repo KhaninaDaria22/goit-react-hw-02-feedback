@@ -1,5 +1,4 @@
 import styled from '@emotion/styled';
-import { theme } from 'constans';
 
 export const Container = styled.div`
   margin: 0 auto;
@@ -18,6 +17,6 @@ export const Container = styled.div`
 `;
 
 export const StatisticsTitle = styled.h2`
-  font-size: ${theme.font.gray};
+  font-size: ##808080;
   margin: 50px 0 30px;
 `;
